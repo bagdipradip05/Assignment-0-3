@@ -31,6 +31,7 @@ div h3{
 footer{
     height:200px;
    
+   
 
 }
 
@@ -42,7 +43,7 @@ div a{
 
 ul li{
     font-size: 18px;
-    margin-left: 40px;
+    margin-left: 20px;
     
 }
 
@@ -50,3 +51,28 @@ ul li{
  custom-css-end
 ---------------- */
 
+/*---------------
+  mobile-device
+---------------*/
+@media only screen and (max-width:688px){
+
+    .trusted-company{
+        display:none;
+    }
+
+
+  
+}
+
+/*-----------------
+    Tablet-Device
+-------------------*/
+
+@media only screen and (min-width:688px) and (max-width:992px){
+
+    .trusted-company{
+        display:none;
+    }
+
+
+}    
